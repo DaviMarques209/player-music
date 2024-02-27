@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    
+    <title>Player Music</title>
+
+</head>
+<body>
+    
+    <img src="./images/giancarlo-duarte-cTj8vbZeX44-unsplash.jpg" alt="Imagem não carregada">
+    <div class="descricao">
+        <h2>*Nome da Música*</h2>
+        <i>*Nome Artista*</i>
+    </div>
+
+    <div class="duracao">
+        <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+        </div>
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">4:00</p>
+        </div>
+    </div>
+
+    <div class="player">
+
+        <i class="mdi mdi-skip-previous-circle-outline anterior"></i>
+
+        <i class="mdi mdi-pause-circle-outline pause"></i>
+
+        <i class="mdi mdi-play-circle play" ></i>
+
+        <i class="mdi mdi-skip-next-circle-outline posterior"></i>
+
+    </div>
+
+    <audio src="music/Dead Wrong - Jeremy Blake.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
